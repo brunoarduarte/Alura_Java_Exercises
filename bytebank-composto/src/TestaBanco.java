@@ -8,6 +8,7 @@ public class TestaBanco {
 
         Conta contaDoBruno = new Conta();
         contaDoBruno.deposita(5000);
+        System.out.println(contaDoBruno.getSaldo());
 
         contaDoBruno.titular = bruno;
         System.out.println(contaDoBruno.titular.nome);
