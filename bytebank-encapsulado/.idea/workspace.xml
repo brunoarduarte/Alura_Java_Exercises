@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4acee92-7cbf-401f-82bd-37956139d41a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TesteValores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projetos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-composto/out/production/bytebank-composto/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-composto/out/production/bytebank-composto/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-composto/out/production/bytebank-composto/TestaBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-composto/out/production/bytebank-composto/TestaBanco.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/bytebank-herdado-conta.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-encapsulado/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-encapsulado/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-encapsulado/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-encapsulado/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-encapsulado/TesteGetSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-encapsulado/TesteGetSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TesteGetSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteGetSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-encapsulado/TesteValores.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-encapsulado/TesteValores.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +43,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bytebank-composto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.TesteGetSet">
+  <component name="RunManager" selected="Application.TesteValores">
     <configuration name="TesteGetSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TesteGetSet" />
       <module name="bytebank-encapsulado" />
@@ -68,8 +62,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TesteGetSet" />
         <item itemvalue="Application.TesteValores" />
+        <item itemvalue="Application.TesteGetSet" />
       </list>
     </recent_temporary>
   </component>
