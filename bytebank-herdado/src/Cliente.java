@@ -1,4 +1,4 @@
-public class Administrador extends Funcionario implements Autenticavel {
+public class Cliente implements Autenticavel {
 
     private int senha;
 
@@ -13,11 +13,4 @@ public class Administrador extends Funcionario implements Autenticavel {
         }
         return false;
     }
-
-    public double getBonificacao() {
-        System.out.println("Chamado método de bonificação do gerente");
-        double bonif = super.getSalario() * 5;
-        return bonif;
-    }
-
 }

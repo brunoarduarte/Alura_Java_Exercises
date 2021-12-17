@@ -1,15 +1,7 @@
-public abstract class Autenticavel extends Funcionario {
+public abstract interface Autenticavel {
 
-    private int senha;
+    public abstract void setSenha(int senha);
 
-    public void setSenha(int senha) {
-        this.senha = senha;
-    }
+    public abstract boolean autentica(int senha);
 
-    public boolean autentica(int senha) {
-        if (this.senha == senha) {
-            return true;
-        }
-        return false;
-    }
 }
