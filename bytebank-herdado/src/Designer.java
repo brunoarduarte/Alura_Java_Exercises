@@ -1,9 +1,9 @@
 public class Designer extends Funcionario {
 
     //reescrita ou sobrescrita do método
-    @Override
+//    @Override
     public double getBonificacao() {
         System.out.println("Chamado método de bonificação do designer");
-        return super.getBonificacao() + 200;
+        return 200;
     }
 }

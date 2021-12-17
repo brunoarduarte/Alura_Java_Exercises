@@ -4,7 +4,7 @@ public class ControleBonificacao {
 
     public void registra(Funcionario f) {
         double bonif = f.getBonificacao();
-        this.soma = this.soma + bonif;
+        this.soma = this.soma + bonif   ;
     }
 
     public double getSoma() {

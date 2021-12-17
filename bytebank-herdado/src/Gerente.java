@@ -14,9 +14,9 @@ public class Gerente extends Funcionario {
     }
 
     //reescrita ou sobrescrita do método
-    @Override
+//    @Override
     public double getBonificacao() {
         System.out.println("Chamado método de bonificação do gerente");
-        return super.getBonificacao() + super.getSalario();
+        return super.getSalario();
     }
 }

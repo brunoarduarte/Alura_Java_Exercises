@@ -8,12 +8,8 @@ public class TesteGerente {
         marcelo.setSenha(3005);
         boolean autenticou = marcelo.autentica(3005);
 
-        Funcionario f = new Funcionario();
-        f.setSalario(2000.0);
-
         ControleBonificacao controle = new ControleBonificacao();
         controle.registra(marcelo);
-        controle.registra(f);
         System.out.println(controle.getSoma());
     }
 }
