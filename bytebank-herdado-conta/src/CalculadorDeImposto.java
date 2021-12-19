@@ -1,4 +1,4 @@
-public class CauladorDeImposto {
+public class CalculadorDeImposto {
 
     private double totalImposto;
 
