@@ -5,8 +5,8 @@ public class ContaPoupanca extends Conta {
     }
 
     @Override
-    public boolean saca(double valor) {
+    public void saca(double valor) {
         double valorSacado = valor + 0.5;
-        return super.saca(valorSacado);
+        super.saca(valorSacado);
     }
 }
