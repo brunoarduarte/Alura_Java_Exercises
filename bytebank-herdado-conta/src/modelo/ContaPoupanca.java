@@ -1,3 +1,5 @@
+package modelo;
+
 public class ContaPoupanca extends Conta {
 
     public ContaPoupanca(int agencia, int numero) {
@@ -5,7 +7,7 @@ public class ContaPoupanca extends Conta {
     }
 
     @Override
-    public void saca(double valor) {
+    public void saca(double valor) throws SaldoInsuficienteException{
         double valorSacado = valor + 0.5;
         super.saca(valorSacado);
     }
