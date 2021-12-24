@@ -13,6 +13,5 @@ public class TesteContas {
         cc.transfere(50.0, cp);
 
         System.out.println(cc.getSaldo());
-
     }
 }
