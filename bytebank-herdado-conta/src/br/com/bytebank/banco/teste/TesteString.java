@@ -1,7 +1,5 @@
 package br.com.bytebank.banco.teste;
 
-import java.util.Locale;
-
 public class TesteString {
 
     public static void main(String[] args) {
